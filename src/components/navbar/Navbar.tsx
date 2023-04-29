@@ -45,7 +45,7 @@ const Navbar = () => {
             {!currentUser && <button>Join</button>}
             {currentUser && (
                 <div className="user" onClick={() => setToggleProfile(!toggleProfile)}>
-                    <img src="https://images.pexels.com/photos/1115697/pexels-photo-1115697.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+                    <img src="https://api.dicebear.com/6.x/bottts-neutral/svg?seed=Chloe" alt="avatar" />
                     {/* <span>{currentUser?.username}</span> */}
                     {toggleProfile && <div className="options">
                         {
